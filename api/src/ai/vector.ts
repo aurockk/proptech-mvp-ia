@@ -3,7 +3,7 @@ import { v4 as uuid } from "uuid";
 import type { QueryResponse } from "@pinecone-database/pinecone";
 import { pc, INDEX_NAME, DIMENSION } from "./config";
 import { embedDocumentsBatched, embedQuery } from "./embeddings";
-
+// vector.ts
 import { inferLocationFromAddress, parseQuery, parseAndValidate } from "./query";
 
 

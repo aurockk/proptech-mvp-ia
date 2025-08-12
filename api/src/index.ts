@@ -3,8 +3,9 @@ import express from "express";
 import cors from "cors";
 import searchRouter from "./routes/search";
 import voiceRouter from "./routes/voice";
+import "dotenv/config";
 import dns from "node:dns";
-dns.setDefaultResultOrder("ipv4first");
+dns.setDefaultResultOrder("ipv4first"); // evita problemas con IPv6 en algunas redes
 
 import { Agent, setGlobalDispatcher } from "undici";
 

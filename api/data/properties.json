@@ -498,5 +498,15 @@
       "bedrooms": 2,
       "bathrooms": 1,
       "description": "Ideal para inversión, zona en crecimiento."
+    },
+    {
+      "id": "prop-051",
+      "title": "Depto 2 ambientes en Palermo",
+      "operation": "rent",
+      "price": 1406190,
+      "address": "Av. Belgrano 4241, CABA",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "description": "Ambientes amplios y luminosos."
     }
   ]

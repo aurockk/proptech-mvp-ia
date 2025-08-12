@@ -8,7 +8,7 @@ export async function ragAnswer(userQuery: string){
     // retrieve 
     const hits = await semanticSearch(userQuery, 5);
     const context = hits
-    .map((m) => {
+    .map((m: { metadata: any; }) => {
         const meta = m.metadata as any; 
         return `+ ${meta.title} | ${meta.operation} | $${meta.price} | ${meta.address ?? ""}`;
     })
