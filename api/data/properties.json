@@ -1,0 +1,502 @@
+[
+    {
+      "id": "prop-001",
+      "title": "Depto 3 ambientes en Villa Urquiza",
+      "operation": "sale",
+      "price": 2089610,
+      "address": "Av. Rivadavia 1016, CABA",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "description": "Cerca de parques y zonas verdes."
+    },
+    {
+      "id": "prop-002",
+      "title": "Depto 3 ambientes en Belgrano",
+      "operation": "sale",
+      "price": 1293760,
+      "address": "Av. Santa Fe 4224, CABA",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "description": "Reciclado a nuevo, bajas expensas."
+    },
+    {
+      "id": "prop-003",
+      "title": "Depto 3 ambientes en Villa Crespo",
+      "operation": "rent",
+      "price": 465102,
+      "address": "Av. Independencia 1671, CABA",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "description": "Cocina equipada y lavadero independiente."
+    },
+    {
+      "id": "prop-004",
+      "title": "Depto 1 ambientes en Recoleta",
+      "operation": "sale",
+      "price": 4780160,
+      "address": "Av. Cabildo 4030, CABA",
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "description": "Ambientes amplios y luminosos."
+    },
+    {
+      "id": "prop-005",
+      "title": "Depto 4 ambientes en Puerto Madero",
+      "operation": "sale",
+      "price": 2298790,
+      "address": "Av. Santa Fe 4852, CABA",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "description": "Ambientes amplios y luminosos."
+    },
+    {
+      "id": "prop-006",
+      "title": "Depto 3 ambientes en Belgrano",
+      "operation": "rent",
+      "price": 280938,
+      "address": "Av. Independencia 1736, CABA",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "description": "Cocina equipada y lavadero independiente."
+    },
+    {
+      "id": "prop-007",
+      "title": "Depto 2 ambientes en San Telmo",
+      "operation": "rent",
+      "price": 478177,
+      "address": "Av. Rivadavia 4384, CABA",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "description": "A metros de importantes avenidas."
+    },
+    {
+      "id": "prop-008",
+      "title": "Depto 2 ambientes en Villa Crespo",
+      "operation": "rent",
+      "price": 494208,
+      "address": "Av. Cabildo 2907, CABA",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "description": "Cocina equipada y lavadero independiente."
+    },
+    {
+      "id": "prop-009",
+      "title": "Depto 3 ambientes en Belgrano",
+      "operation": "rent",
+      "price": 147350,
+      "address": "Av. 9 de Julio 3393, CABA",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "description": "Cocina equipada y lavadero independiente."
+    },
+    {
+      "id": "prop-010",
+      "title": "Depto 1 ambientes en Belgrano",
+      "operation": "rent",
+      "price": 450577,
+      "address": "Av. Santa Fe 353, CABA",
+      "bedrooms": 1,
+      "bathrooms": 3,
+      "description": "Cerca de parques y zonas verdes."
+    },
+    {
+      "id": "prop-011",
+      "title": "Depto 4 ambientes en Caballito",
+      "operation": "rent",
+      "price": 412931,
+      "address": "Av. Belgrano 374, CABA",
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "description": "Listo para mudarse, en excelente estado."
+    },
+    {
+      "id": "prop-012",
+      "title": "Depto 1 ambientes en Villa Urquiza",
+      "operation": "sale",
+      "price": 4928910,
+      "address": "Av. 9 de Julio 333, CABA",
+      "bedrooms": 1,
+      "bathrooms": 3,
+      "description": "Cerca de parques y zonas verdes."
+    },
+    {
+      "id": "prop-013",
+      "title": "Depto 3 ambientes en Palermo",
+      "operation": "sale",
+      "price": 2250300,
+      "address": "Av. Cabildo 1049, CABA",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "description": "Cocina equipada y lavadero independiente."
+    },
+    {
+      "id": "prop-014",
+      "title": "Depto 2 ambientes en Caballito",
+      "operation": "rent",
+      "price": 183032,
+      "address": "Av. Corrientes 3657, CABA",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "description": "Excelente ubicación, balcón al frente."
+    },
+    {
+      "id": "prop-015",
+      "title": "Depto 3 ambientes en Puerto Madero",
+      "operation": "sale",
+      "price": 2615240,
+      "address": "Av. San Juan 2684, CABA",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "description": "Excelente ubicación, balcón al frente."
+    },
+    {
+      "id": "prop-016",
+      "title": "Depto 4 ambientes en Belgrano",
+      "operation": "sale",
+      "price": 4265480,
+      "address": "Av. Córdoba 4711, CABA",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "description": "Con amenities y seguridad 24hs."
+    },
+    {
+      "id": "prop-017",
+      "title": "Depto 2 ambientes en Recoleta",
+      "operation": "sale",
+      "price": 1406190,
+      "address": "Av. Belgrano 4241, CABA",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "description": "Ambientes amplios y luminosos."
+    },
+    {
+      "id": "prop-018",
+      "title": "Depto 2 ambientes en Puerto Madero",
+      "operation": "sale",
+      "price": 2159240,
+      "address": "Av. Santa Fe 3362, CABA",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "description": "Con amenities y seguridad 24hs."
+    },
+    {
+      "id": "prop-019",
+      "title": "Depto 2 ambientes en San Telmo",
+      "operation": "sale",
+      "price": 1598560,
+      "address": "Av. San Juan 683, CABA",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "description": "Ideal para inversión, zona en crecimiento."
+    },
+    {
+      "id": "prop-020",
+      "title": "Depto 3 ambientes en Palermo",
+      "operation": "rent",
+      "price": 375989,
+      "address": "Av. Cabildo 4671, CABA",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "description": "Luminoso, cerca del subte, apto profesional."
+    },
+    {
+      "id": "prop-021",
+      "title": "Depto 3 ambientes en Palermo",
+      "operation": "sale",
+      "price": 4765280,
+      "address": "Av. Rivadavia 3473, CABA",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "description": "Luminoso, cerca del subte, apto profesional."
+    },
+    {
+      "id": "prop-022",
+      "title": "Depto 2 ambientes en Colegiales",
+      "operation": "rent",
+      "price": 327088,
+      "address": "Av. Corrientes 3147, CABA",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "description": "A metros de importantes avenidas."
+    },
+    {
+      "id": "prop-023",
+      "title": "Depto 3 ambientes en Puerto Madero",
+      "operation": "rent",
+      "price": 251929,
+      "address": "Av. Corrientes 2659, CABA",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "description": "Luminoso, cerca del subte, apto profesional."
+    },
+    {
+      "id": "prop-024",
+      "title": "Depto 2 ambientes en Recoleta",
+      "operation": "sale",
+      "price": 4767530,
+      "address": "Av. Libertador 1617, CABA",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "description": "A metros de importantes avenidas."
+    },
+    {
+      "id": "prop-025",
+      "title": "Depto 4 ambientes en Palermo",
+      "operation": "sale",
+      "price": 2297250,
+      "address": "Av. Corrientes 2983, CABA",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "description": "Cocina equipada y lavadero independiente."
+    },
+    {
+      "id": "prop-026",
+      "title": "Depto 4 ambientes en Puerto Madero",
+      "operation": "rent",
+      "price": 156057,
+      "address": "Av. Córdoba 2826, CABA",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "description": "Cocina equipada y lavadero independiente."
+    },
+    {
+      "id": "prop-027",
+      "title": "Depto 3 ambientes en Recoleta",
+      "operation": "sale",
+      "price": 612750,
+      "address": "Av. San Juan 2250, CABA",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "description": "Excelente ubicación, balcón al frente."
+    },
+    {
+      "id": "prop-028",
+      "title": "Depto 4 ambientes en Belgrano",
+      "operation": "rent",
+      "price": 378717,
+      "address": "Av. Belgrano 203, CABA",
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "description": "A metros de importantes avenidas."
+    },
+    {
+      "id": "prop-029",
+      "title": "Depto 2 ambientes en Puerto Madero",
+      "operation": "rent",
+      "price": 179663,
+      "address": "Av. Cabildo 4322, CABA",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "description": "Cocina equipada y lavadero independiente."
+    },
+    {
+      "id": "prop-030",
+      "title": "Depto 3 ambientes en Villa Urquiza",
+      "operation": "sale",
+      "price": 1189550,
+      "address": "Av. 9 de Julio 3547, CABA",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "description": "Excelente ubicación, balcón al frente."
+    },
+    {
+      "id": "prop-031",
+      "title": "Depto 1 ambientes en Puerto Madero",
+      "operation": "rent",
+      "price": 442244,
+      "address": "Av. Santa Fe 1737, CABA",
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "description": "Cerca de parques y zonas verdes."
+    },
+    {
+      "id": "prop-032",
+      "title": "Depto 1 ambientes en Caballito",
+      "operation": "sale",
+      "price": 980620,
+      "address": "Av. Cabildo 4701, CABA",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "description": "Listo para mudarse, en excelente estado."
+    },
+    {
+      "id": "prop-033",
+      "title": "Depto 4 ambientes en Villa Crespo",
+      "operation": "sale",
+      "price": 675790,
+      "address": "Av. Libertador 2100, CABA",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "description": "Reciclado a nuevo, bajas expensas."
+    },
+    {
+      "id": "prop-034",
+      "title": "Depto 4 ambientes en Almagro",
+      "operation": "sale",
+      "price": 1104630,
+      "address": "Av. Corrientes 3068, CABA",
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "description": "Cocina equipada y lavadero independiente."
+    },
+    {
+      "id": "prop-035",
+      "title": "Depto 1 ambientes en Villa Urquiza",
+      "operation": "rent",
+      "price": 280052,
+      "address": "Av. 9 de Julio 2849, CABA",
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "description": "Cocina equipada y lavadero independiente."
+    },
+    {
+      "id": "prop-036",
+      "title": "Depto 3 ambientes en Colegiales",
+      "operation": "rent",
+      "price": 126602,
+      "address": "Av. Santa Fe 3620, CABA",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "description": "Reciclado a nuevo, bajas expensas."
+    },
+    {
+      "id": "prop-037",
+      "title": "Depto 2 ambientes en Colegiales",
+      "operation": "rent",
+      "price": 242192,
+      "address": "Av. Independencia 3473, CABA",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "description": "Ambientes amplios y luminosos."
+    },
+    {
+      "id": "prop-038",
+      "title": "Depto 1 ambientes en San Telmo",
+      "operation": "sale",
+      "price": 1197640,
+      "address": "Av. Independencia 4833, CABA",
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "description": "Cerca de parques y zonas verdes."
+    },
+    {
+      "id": "prop-039",
+      "title": "Depto 1 ambientes en Puerto Madero",
+      "operation": "sale",
+      "price": 3927630,
+      "address": "Av. Santa Fe 3872, CABA",
+      "bedrooms": 1,
+      "bathrooms": 3,
+      "description": "Reciclado a nuevo, bajas expensas."
+    },
+    {
+      "id": "prop-040",
+      "title": "Depto 2 ambientes en Recoleta",
+      "operation": "sale",
+      "price": 3511700,
+      "address": "Av. Rivadavia 228, CABA",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "description": "A metros de importantes avenidas."
+    },
+    {
+      "id": "prop-041",
+      "title": "Depto 4 ambientes en Villa Crespo",
+      "operation": "sale",
+      "price": 2390030,
+      "address": "Av. Santa Fe 1706, CABA",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "description": "Con amenities y seguridad 24hs."
+    },
+    {
+      "id": "prop-042",
+      "title": "Depto 2 ambientes en Villa Crespo",
+      "operation": "rent",
+      "price": 321633,
+      "address": "Av. Rivadavia 3317, CABA",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "description": "Ambientes amplios y luminosos."
+    },
+    {
+      "id": "prop-043",
+      "title": "Depto 3 ambientes en Palermo",
+      "operation": "sale",
+      "price": 2706990,
+      "address": "Av. Belgrano 3808, CABA",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "description": "Ambientes amplios y luminosos."
+    },
+    {
+      "id": "prop-044",
+      "title": "Depto 2 ambientes en Colegiales",
+      "operation": "rent",
+      "price": 411454,
+      "address": "Av. Libertador 4092, CABA",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "description": "Cocina equipada y lavadero independiente."
+    },
+    {
+      "id": "prop-045",
+      "title": "Depto 1 ambientes en Colegiales",
+      "operation": "sale",
+      "price": 1505340,
+      "address": "Av. Independencia 2691, CABA",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "description": "Excelente ubicación, balcón al frente."
+    },
+    {
+      "id": "prop-046",
+      "title": "Depto 1 ambientes en Caballito",
+      "operation": "rent",
+      "price": 499586,
+      "address": "Av. 9 de Julio 2087, CABA",
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "description": "Cerca de parques y zonas verdes."
+    },
+    {
+      "id": "prop-047",
+      "title": "Depto 4 ambientes en Puerto Madero",
+      "operation": "sale",
+      "price": 2224100,
+      "address": "Av. Santa Fe 225, CABA",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "description": "Excelente ubicación, balcón al frente."
+    },
+    {
+      "id": "prop-048",
+      "title": "Depto 4 ambientes en Villa Urquiza",
+      "operation": "rent",
+      "price": 136270,
+      "address": "Av. Córdoba 393, CABA",
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "description": "Cerca de parques y zonas verdes."
+    },
+    {
+      "id": "prop-049",
+      "title": "Depto 1 ambientes en Colegiales",
+      "operation": "sale",
+      "price": 1676630,
+      "address": "Av. Corrientes 938, CABA",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "description": "Ambientes amplios y luminosos."
+    },
+    {
+      "id": "prop-050",
+      "title": "Depto 2 ambientes en Recoleta",
+      "operation": "sale",
+      "price": 1815470,
+      "address": "Av. Cabildo 1720, CABA",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "description": "Ideal para inversión, zona en crecimiento."
+    }
+  ]
