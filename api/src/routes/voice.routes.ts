@@ -1,11 +1,9 @@
-// api/src/routes/voice.ts
 import express, { Request, Response } from "express";
 import multer from "multer";
 import { z } from "zod";
 import { semanticSearch } from "../ai/vector";
 
-// ─────────────────────────────────────────────────────────────
-// Multer en memoria
+
 const upload = multer({
   storage: multer.memoryStorage(),
   limits: { fileSize: 15 * 1024 * 1024 }, // 15 MB
@@ -21,7 +19,6 @@ const optsSchema = z.object({
 
 // Helpers
 function toU8(buf: Buffer) {
-  // Buffer (Node) -> Uint8Array (BlobPart válido)
   return new Uint8Array(buf.buffer, buf.byteOffset, buf.byteLength);
 }
 
@@ -34,13 +31,10 @@ function isInsufficientQuotaError(e: any) {
   );
 }
 
-// ─────────────────────────────────────────────────────────────
-// Transcribe con OpenAI; si falla por cuota u otra razón, intenta HF
 async function transcribeWithRetry(file: Express.Multer.File, tries = 2): Promise<string> {
   let lastErr: any;
 
-  // 1) OpenAI Whisper (multipart form-data: file + model=whisper-1)
-  //    No setear Content-Type manualmente (fetch arma boundary del FormData)
+  // 1) OpenAI Whisper 
   const OPENAI_KEY = process.env.OPENAI_API_KEY || process.env.OPENAI_WHISPER_API_KEY;
   if (OPENAI_KEY) {
     for (let i = 1; i <= tries; i++) {
@@ -102,19 +96,16 @@ async function transcribeWithRetry(file: Express.Multer.File, tries = 2): Promis
       throw new Error(`HF Whisper ${r.status} ${body}`);
     }
 
-    // Respuesta puede ser {text} o array [{text}]
     const j: any = await r.json();
     const text = String(j?.text ?? j?.[0]?.text ?? "").trim();
     if (!text) throw new Error("empty_transcription");
     return text;
   }
 
-  // 3) Sin credenciales de ninguno
+  // 3) Ninguno
   throw lastErr || new Error("no_stt_provider_available");
 }
 
-// ─────────────────────────────────────────────────────────────
-// POST /api/voice/search -> transcribe + semanticSearch
 router.post("/search", upload.single("file"), async (req: Request, res: Response) => {
   try {
     if (!req.file) return res.status(400).json({ error: "no_file" });
