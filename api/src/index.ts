@@ -1,8 +1,8 @@
 import "dotenv/config";
 import express from "express";
 import cors from "cors";
-import searchRouter from "./routes/search";
-import voiceRouter from "./routes/voice";
+import searchRouter from "./routes/search.routes";
+import voiceRouter from "./routes/voice.routes";
 import "dotenv/config";
 import dns from "node:dns";
 dns.setDefaultResultOrder("ipv4first"); // evita problemas con IPv6 en algunas redes

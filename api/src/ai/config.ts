@@ -1,6 +1,6 @@
 import "dotenv/config";
 import { Pinecone } from "@pinecone-database/pinecone";
-import { getEnv } from "../env";
+import { getEnv } from "../config/env";
 
 export const PROVIDER = (process.env.EMBED_PROVIDER ?? "hf").toLowerCase(); // "hf" | "openai"
 export const USE_HF = PROVIDER === "hf";

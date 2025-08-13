@@ -1,7 +1,7 @@
 import { setTimeout as delay } from "node:timers/promises";
 import { InferenceClient } from "@huggingface/inference";
 import { OpenAIEmbeddings } from "@langchain/openai";
-import { getEnv } from "../env";
+import { getEnv } from "../config/env";
 import { USE_HF } from "./config";;
 
 const BATCH_SIZE = Number(process.env.EMBED_BATCH_SIZE ?? 10);

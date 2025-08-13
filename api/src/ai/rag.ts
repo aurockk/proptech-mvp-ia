@@ -1,6 +1,6 @@
 import { OpenAI } from "openai"; 
 import { semanticSearch } from "./vector";
-import { getEnv } from "../env";
+import { getEnv } from "../config/env";
 
 const openai = new OpenAI({ apiKey: getEnv("OPENAI_API_KEY") }); 
 
