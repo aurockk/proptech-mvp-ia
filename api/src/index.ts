@@ -3,6 +3,7 @@ import express from "express";
 import cors from "cors";
 import searchRouter from "./routes/search.routes";
 import voiceRouter from "./routes/voice.routes";
+import docsRouter from "./docs";
 import "dotenv/config";
 import dns from "node:dns";
 dns.setDefaultResultOrder("ipv4first"); // evita problemas con IPv6 en algunas redes
@@ -29,6 +30,7 @@ app.use(express.json());
 app.get("/health", (_req, res) => res.json({ ok: true }));
 app.use("/api/search", searchRouter);
 app.use("/api/voice", voiceRouter);
+app.use("/docs", docsRouter);
 
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => console.log(`API running on http://localhost:${PORT}`));

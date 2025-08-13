@@ -1,0 +1,33 @@
+openapi: 3.0.3
+info:
+  title: PropTech API
+  version: 1.0.0
+servers:
+  - url: http://localhost:4000
+paths:
+  /api/search:
+    post:
+      summary: Texto → resultados
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                query: { type: string }
+              required: [query]
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  matches:
+                    type: array
+                    items:
+                      type: object
+                  total:
+                    type: integer
