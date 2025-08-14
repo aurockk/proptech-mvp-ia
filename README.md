@@ -96,6 +96,7 @@ Errores comunes
 - pnpm dev        # levanta web
 - pnpm build      # build
 - pnpm preview    # preview
+- pnpm inject | npm run inject # inyecta 50 propiedades
 
 ## api/
 - pnpm dev        # dev con tsx
